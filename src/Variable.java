@@ -10,28 +10,28 @@ public class Variable {
          * assignmnet
          */
         // 1 int
-        int age = 21;
-        int year = 2025;
-        int quantity = 1;
+        // int age = 21;
+        // int year = 2025;
+        // int quantity = 1;
         // System.out.println(age);
         // System.out.println(year);
         // System.out.println(quantity);
 
         //2 double
-        double price = 9.99;
-        double gpa =3.8;
+        // double price = 9.99;
+        // double gpa =3.8;
 
         // System.out.println(price);
         // 3 char
         
-        char grade = 'A';
-        char symbol = '!';
-        char currency = '$';
+        // char grade = 'A';
+        // char symbol = '!';
+        // char currency = '$';
 
         // 4 boolean
 
         boolean isStudent = true;
-        boolean isValid = false;
+        // boolean isValid = false;
         boolean isOnline = true;
 
         System.out.println(isStudent);
@@ -41,11 +41,11 @@ public class Variable {
         }
 
         // String 
-        String name = "Adepoju";
-        String food = "Amala";
-        String Colour = "Blue";
-        String email = "adepoju6@gmail.com";
+        // String name = "Adepoju";
+        // String food = "Amala";
+        // String Colour = "Blue";
+        // String email = "adepoju6@gmail.com";
 
-        System.out.println("My email is " + email);
+        // System.out.println("My email is " + email);
     }
 }
