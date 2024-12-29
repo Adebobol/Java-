@@ -17,4 +17,5 @@ public class RandomLib {
             System.out.println("Is a tail");
         }
     }
+    
 }
