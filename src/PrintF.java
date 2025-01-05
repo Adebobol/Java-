@@ -1,14 +1,16 @@
 public class PrintF {
     public static void main(String[] args) {
         
-        // printf() = is a method used to format output
-        // %[flags][width][.precision][specifier-chracter]
-
+        
         String name = "Adepoju";
         char firstLetter = 'A';
         int age = 30;
         double height = 60.4;
         boolean isEmployed = true;
+
+        // printf() = is a method used to format output
+        // %[flags][width][.precision][specifier-chracter]
+
 
         // + = output a plus
         // , = comma grouping seperator
