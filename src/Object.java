@@ -37,14 +37,43 @@ class User {
     }
 }
 
+class Friend {
+
+    // static = makes a variable or method belong to the class rather than to any specific object.
+    // Commonly used ofr utility methods or shared resources
+
+    
+    String name;
+    static int totalFriends;
+
+    Friend(String name){
+        this.name = name;
+        totalFriends++;
+    }
+
+    static String friend(){
+        return "I have " + totalFriends + " friend.";
+    }
+}
+
 
 public class Object {
     public static void main(String[] args) {
-        User user1 = new User("bobola19_", "adepoju@email.com");
-        User user2 = new User("Anifowose");
+     
+        Friend friend1= new Friend("Samuel");
+        Friend friend2= new Friend("Emmanuel");
+        Friend friend3= new Friend("Abdullah");
 
-        System.out.println(user1.email);
-        System.out.println(user2.email);
 
+
+        System.out.println(friend1.name);
+        System.out.println(Friend.friend());
     }
 }
+
+
+   // User user1 = new User("bobola19_", "adepoju@email.com");
+        // User user2 = new User("Anifowose");
+
+        // System.out.println(user1.email);
+        // System.out.println(user2.email);
