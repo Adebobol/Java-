@@ -16,6 +16,11 @@ class Engineer extends Job{
         super(type);
     }
 
+    @Override
+    void description(){
+        System.out.printf("I am a %s engineer.",type);
+    }
+
     
 }
 
