@@ -10,7 +10,7 @@ public class overLoadedMethod {
         return a + b + c;
     }
 
-      static double add(double a,double b){
+    static double add(double a,double b){
         return a + b ;
     }
 }

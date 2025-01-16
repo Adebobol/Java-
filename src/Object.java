@@ -30,7 +30,7 @@ class User {
         this.age = 18;
     }
 
-     User(String username, String email){
+    User(String username, String email){
         this.username = username;
         this.email = email;
         this.age = 18;
@@ -42,7 +42,7 @@ class Friend {
     // static = makes a variable or method belong to the class rather than to any specific object.
     // Commonly used ofr utility methods or shared resources
 
-    
+
     String name;
     static int totalFriends;
 
