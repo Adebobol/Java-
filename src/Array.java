@@ -10,12 +10,13 @@ public class Array {
         foods[1]="Amala";
 
 
-        for(int i = 0; i < foods.length; i++){
-            System.out.println("Enter a food: ");
-            foods[i] = scanner.nextLine();
-        }
+        // for(int i = 0; i < foods.length; i++){
+        //     System.out.println("Enter a food: ");
+        //     foods[i] = scanner.nextLine();
+        // }
 
         for (String food: foods){
+            System.out.println();
             System.out.println(food);
         }
 
