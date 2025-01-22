@@ -16,7 +16,16 @@ public class ReadFiles {
         
 
         try(BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
-            // reader.read();
+            String line;
+            int i =1;
+            while((line = reader.readLine()) != null){
+                    System.out.printf("%s) %s",i,line);
+                    System.out.println();
+                    i++;
+                // for(int i = 1;i<line.length();i++){
+                //     System.out.printf("%s %s",i,line);
+                // }
+            }
             System.out.println("File exists in location.");
         } catch (FileNotFoundException e){
             System.out.println("File to be read can't be found.");
