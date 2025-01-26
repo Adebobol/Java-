@@ -53,5 +53,6 @@ public class GetterAndSetter {
         Phone phone = new Phone("Samsung", "blue", 250000);
 
         System.out.println(phone.getColour());
+        
     }
 }

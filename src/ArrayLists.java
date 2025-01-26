@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class ArrayLists {
-    public static void main(String[] args) {
+    public static void  t5yuer3s3w54main(String[] args) {
      
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> foods = new ArrayList<>();

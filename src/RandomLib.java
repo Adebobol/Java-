@@ -8,6 +8,7 @@ public class RandomLib {
         boolean isHead;
 
         isHead = random.nextBoolean();
+        System.out.println(isHead);
 
 
         if (isHead) {
