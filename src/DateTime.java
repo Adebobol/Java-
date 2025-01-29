@@ -20,23 +20,25 @@ public class DateTime {
         //  custom formatter for date and time
         LocalDateTime datetime = LocalDateTime.now();
 
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM-dd-yyyy-HH-mm-ss");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM-dd-yyyy-HH-mm");
 
         String newDateTime = datetime.format(formatter);
 
         System.out.println(newDateTime);
 
-        LocalDateTime date1 = LocalDateTime.of(2025,12,25,13,0,0);
+        LocalDateTime date1 = LocalDateTime.of(2025,1,28,20,53);
 
          LocalDateTime date2 = LocalDateTime.of(2003,12,25,13,0,0);
 
          System.out.println(date1);
          System.out.println(date2);
 
-         if(date1.isBefore(date2)){
+         if(date1.isBefore(datetime)){
             System.out.println(date1 + " is before " + date2);
-         } else if(date1.isAfter(date2)){
+         } else if(date1.isAfter(datetime)){
             System.out.println(date1 + " is after " + date2);
+         } else if(date1.isEqual(datetime)){
+            System.err.println("Equal dates");
          }
     }
 }
