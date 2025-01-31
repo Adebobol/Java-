@@ -40,6 +40,12 @@ public class Variable {
             System.out.println("Send me our 407 material.");
         }
 
+        // References 
+
+        // Array
+        // Object
+        // 
+        
         // String 
         // String name = "Adepoju";
         // String food = "Amala";

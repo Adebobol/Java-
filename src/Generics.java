@@ -30,6 +30,17 @@ class Product<T,U>{
     }
 }
 
+interface wallet<T,U>{
+
+
+    U getCurrency();
+
+}
+
+
+
+//  
+
 public class Generics {
     public static void main(String[] args) {
         // Generics = A concept where you can write a class, interface or method that is compatible with different data types. <T,U> Type parameter (placeholder that gets replaced with a real type) <String> Type argument (specifies the type)
@@ -47,7 +58,5 @@ public class Generics {
 
         System.out.println(product.getItem());
         System.out.println(product.getPrice());
-
-
     }
 }
